@@ -33,6 +33,7 @@ header{
     align-items: center;
 
 }
+
 .logo{
     height: 80px;
     width: 80px;
@@ -45,10 +46,22 @@ header{
     gap: 32px;
     font-size: 32px;
 }
+
 main{
     flex-grow: 1;
     background-color: plum;
+    display: flex;
 
+}
+
+.conteudo{
+    width: 50%;
+    background-color: tomato;
+
+}
+.destaque{
+    width: 50%;
+    background-color: blueviolet;
 }
 
 footer{
