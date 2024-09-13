@@ -19,3 +19,24 @@ ul, ol, li{
 
 /* Fim do Reset */
 
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    height: 200px;
+    background-color: lightblue;
+}
+
+main{
+    flex-grow: 1;
+    background-color: plum;
+
+}
+
+footer{
+    height: 100px;
+    background-color: brown;
+}
