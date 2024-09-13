@@ -24,6 +24,7 @@ body{
     display: flex;
     flex-direction: column;
     padding-inline: 80px;
+    background-color: #121212;
 }
 
 header{
@@ -35,16 +36,20 @@ header{
 }
 
 .logo{
-    height: 80px;
-    width: 80px;
-    background-color: lightgray;
-
+    height: 96px;
+    width: 96px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/d9/Forza_new_logo.png');
+    background-color: #fff;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .menu ul{
     display: flex;
     gap: 32px;
     font-size: 32px;
+    color: #ffffff;
 }
 
 main{
@@ -65,19 +70,23 @@ main{
 }
 .conteudo h1{
     font-size: 80px;
+    color: #f4c542;
 
 }
 .conteudo p{
     font-size: 48px;
+    color: #FFFFFF;
 }
 .conteudo button{
-    height: 64px;
+    height: 80px;
     width: 300px;
     font-size: 32px;
-    background-color: black;
-    color: white;
+    background-color: #f4c542;
+    color: black;
+    font-size: 32px;
 }
 .social{
+    width: 80%;
     display: flex;
     justify-content: space-between;
 }
@@ -98,15 +107,20 @@ main{
     font-size: 48px;
     color: #000;
 }
-.destaque{
+.destaque {
     width: 50%;
-    background-color: blueviolet;
+    background-image: url('https://www.gamevicio.com/static/imagens_up/big/57/forza-horizon-5-recebe-sua-capa-oficial-e-novo-video-de-gameplay-com-8-minutos-056523.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
 }
+
 
 footer{
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: black;
+    color: white;
 }
